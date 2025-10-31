@@ -9,6 +9,9 @@ import 'package:all_you_learn/projects/mi_card_code.dart';
 import 'package:all_you_learn/projects/true_false_code.dart';
 import 'package:all_you_learn/projects/xylophone_code.dart';
 import 'package:all_you_learn/python/index_page_python.dart';
+import 'package:all_you_learn/python/quiz_home_python.dart';
+import 'package:all_you_learn/python/quiz_page_python_analsys.dart';
+import 'package:all_you_learn/python/quiz_page_python_basic.dart';
 import 'package:all_you_learn/theme/theme_file.dart';
 import 'package:flutter/material.dart';
 
@@ -45,6 +48,12 @@ class MyApp extends StatelessWidget {
         '/quiz': (context) => QuizPage(),
         '/python': (context) =>
             Theme(data: kLocalTheme, child: IndexPagePython()),
+        '/quiz_python_home': (context) =>
+            Theme(child: QuizHomePython(), data: kLocalTheme),
+        '/quiz_python': (context) =>
+            Theme(child: QuizPagePython(), data: kLocalTheme),
+        '/quiz_pythonanalysis': (context) =>
+            Theme(child: QuizPythonAnalysis(), data: kLocalTheme),
       },
     );
   }

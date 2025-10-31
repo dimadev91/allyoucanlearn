@@ -1,14 +1,14 @@
 import 'package:all_you_learn/constants/constants.dart';
 import 'package:flutter/material.dart';
 
-class TextContainerPython extends StatelessWidget {
+class TextContainerPythonCenter extends StatelessWidget {
   final String? text;
   final VoidCallback? onPress;
   final TextStyle? style;
   final double? top;
   final IconData? icon;
 
-  const TextContainerPython({
+  const TextContainerPythonCenter({
     this.text,
     this.onPress,
     this.style,
@@ -29,7 +29,6 @@ class TextContainerPython extends StatelessWidget {
             child: Text(text ?? '', style: style ?? kPagesStyle),
           ),
         ),
-        const Spacer(),
         GestureDetector(
           onTap: onPress,
           child: Icon(
