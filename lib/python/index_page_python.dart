@@ -77,10 +77,10 @@ class IndexPagePython extends StatelessWidget {
             icon1: Icon(Icons.home, color: Color(0x9291E2FF)),
             icon2: Icon(Icons.question_answer, color: Colors.white),
             onPression2: () {
-              Navigator.pushNamed(context, '/quiz');
+              Navigator.pushNamed(context, '/');
             },
             onPression: () {
-              Navigator.pushNamed(context, '/2');
+              Navigator.pushNamed(context, '/');
             },
           ),
         ),
