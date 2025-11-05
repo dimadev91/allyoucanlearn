@@ -1,0 +1,15 @@
+const String exTernaryOperator =
+    'The ternary operator is a compact way to write if-else statements.\n'
+    'It checks a condition and executes one of two expressions.\n\n'
+    'Syntax:\n'
+    'condition ? expressionIfTrue : expressionIfFalse;\n\n'
+    'Example:\n'
+    'int age = 20;\n'
+    'String message = age >= 18 ? "Adult" : "Minor";\n'
+    'print(message); // Output: Adult\n\n'
+    'You can also nest ternary operators for multiple conditions:\n'
+    'String grade = score >= 90 ? "A" : score >= 80 ? "B" : "C";\n\n'
+    'In Flutter, the ternary operator is often used inside widgets:\n'
+    'color: isActive ? activeColor : inactiveColor,\n\n'
+    'It simplifies code, reduces verbosity, and keeps UI logic compact.\n'
+    'Always ensure readability when nesting multiple ternary conditions.';

@@ -1,0 +1,28 @@
+// ignore_for_file: file_names
+
+const String exAEIP =
+    'ABSTRACTION:\n'
+    'We use abstraction to assign specific jobs to different files or classes,\n'
+    'keeping the code clean and modular. Each part focuses on its own task,\n'
+    'so we can change one without affecting the rest.\n\n'
+    'ENCAPSULATION:\n'
+    'We protect data by making properties private (using an underscore "_"),\n'
+    'and we expose only what’s necessary through public methods.\n'
+    'This prevents unwanted modifications from outside the class.\n\n'
+    'INHERITANCE:\n'
+    'Allows a class to inherit properties and methods from another.\n'
+    'This avoids code repetition. Syntax: class Child extends Parent {}\n\n'
+    'POLYMORPHISM:\n'
+    'Lets us modify or extend the behavior of inherited classes.\n'
+    'We can override methods using the @override keyword:\n'
+    '@override\n'
+    'void greet() {\n'
+    '  super.greet();\n'
+    '  print("Nice to meet you!");\n'
+    '}\n\n'
+    'Here, "super" allows us to use the parent’s version of a method\n'
+    'and then add or change something on top of it.\n\n'
+    'We can also modify object properties using .copyWith():\n'
+    'final newUser = oldUser.copyWith(name: "Alex");\n\n'
+    'This is common in Flutter widgets to create updated copies\n'
+    'without changing the original instance.';

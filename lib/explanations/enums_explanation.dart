@@ -1,0 +1,18 @@
+const String exEnums =
+    'Enums are a way to define a set of named constant values.\n'
+    'They help make code more readable and safer by replacing\n'
+    'numbers or strings with clear, meaningful names.\n\n'
+    'Example:\n'
+    'enum Gender { male, female, other }\n\n'
+    'Instead of using 1, 2, or 3 to represent gender, you can write:\n'
+    'Gender selected = Gender.male;\n\n'
+    'This makes code self-explanatory and reduces errors.\n'
+    'Enums are defined outside classes and can be used across the app.\n\n'
+    'Example in use:\n'
+    'if (selected == Gender.female) {\n'
+    '  print("Female selected");\n'
+    '} else {\n'
+    '  print("Other gender");\n'
+    '}\n\n'
+    'Enums make code easier to understand and maintain, especially\n'
+    'when dealing with limited, well-defined options.';
